@@ -19,7 +19,6 @@ $mobile-breakpoint: 1024px
 
 @mixin highlight
   color: $cygnus-green
-  font-weight: bold
 
 body
   @include vertical-flex
@@ -61,6 +60,7 @@ body
 
 .header
   font-family: $header-font !important
+  font-weight: 200
   letter-spacing: 1px
   text-transform: uppercase
   color: $cygnus-secondary-foreground
@@ -155,6 +155,7 @@ a.small
 #headline
   @include highlight
   @extend .header
+  font-weight: 100
   text-align: center
   font-size: 3em
   padding: 10px
@@ -166,6 +167,7 @@ a.small
     color: $cygnus-primary-foreground
     margin: 10px
     text-transform: none
+    font-weight: 200
 
 #cygnus
   background: url("../img/cygnus.jpg") no-repeat center
