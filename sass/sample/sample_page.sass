@@ -5,7 +5,7 @@
 
 $sections: 3
 
-$mobile-breakpoint: 768px
+$mobile-breakpoint: 1024px
 
 @mixin vertical-flex
   display: flex
@@ -168,7 +168,8 @@ a.small
     text-transform: none
 
 #cygnus
-  background: url("../img/cygnus.jpg") center
+  background: url("../img/cygnus.jpg") no-repeat center
+  background-size: auto 100%
   filter: brightness(30%) hue-rotate(-20deg)
   width: 100vw
   height: 100vh
@@ -193,5 +194,14 @@ a.small
 
 /* Mobile only rules  */
 @media (max-width: $mobile-breakpoint)
+  body
+    font-size: 2.5em
+
+  .sections-container
+    width: 90vw
+
+  .section
+    margin: 30px 0
+
   .hide-mobile
     display: none
