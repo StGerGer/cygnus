@@ -7,7 +7,7 @@
 
 {
   // Info
-  "manifest-version": 2,
+  "manifest_version": 2,
   "version": "0.1",
   "name": "Cygnus",
 
@@ -16,7 +16,7 @@
       // General colors
       "frame": "#121219",
       "frame_inactive": "#222229",
-      "icons": "#1AF095",
+      "icons": "#9A9098",
       "icons_attention": "#F01A77",
 
       // Tab bar
@@ -30,10 +30,12 @@
       "toolbar_top_separator": "#121219",
       "toolbar_bottom_separator": "#121219",
       "toolbar_field": "#121219",
-      "toolbar_field_separator": "#1EEAF0",
-      "toolbar_field_focus": "#1EEAF0",
-      "toolbar_field_highlight": "#1EEAF0",
-      "bookmark_text": "#1AF095",
+      "toolbar_field_text": "#E4F1EA",
+      "toolbar_field_separator": "#E4F1EA",
+      "toolbar_field_text_focus": "#1a75f0",
+      "toolbar_field_highlight": "#1a75f0",
+      "toolbar_field_border_focus": "#1a75f0",
+      "bookmark_text": "#E4F1EA",
 
       // New tab page
       "ntp_background": "#121219",
@@ -41,8 +43,14 @@
 
       // Sidebar
       "sidebar": "#121219",
-      "sidebar_border": "#121219",
-      "sidebar_text": "#E4F1EA"
+      "sidebar_border": "#1d1d28",
+      "sidebar_text": "#E4F1EA",
+
+      //Popup
+      "popup": "#121219",
+      "popup_border": "#1d1d28",
+      "popup_text": "#E4F1EA",
+      "popup_highlight": "#1d1d28"
     }
   }
 }
