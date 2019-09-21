@@ -1,0 +1,48 @@
+/*
+ * Human readable source for Cygnus Firefox theme
+ * Note: Don't put this file through a JSON parser, it won't work. Use JSMin on this file first.
+ *
+ * Created by Nate St. George, licensed under the MIT License
+*/
+
+{
+  // Info
+  "manifest-version": 2,
+  "version": "0.1",
+  "name": "Cygnus",
+
+  "theme": {
+    "colors": {
+      // General colors
+      "frame": "#121219",
+      "frame_inactive": "#222229",
+      "icons": "#1AF095",
+      "icons_attention": "#F01A77",
+
+      // Tab bar
+      "tab_text": "#E4F1EA",
+      "tab_background_text": "#9A9098",
+      "tab_line": "#1AF095",
+      "tab_background_separator": "#1d1d28",
+
+      // Toolbar
+      "toolbar": "#1d1d28",
+      "toolbar_top_separator": "#121219",
+      "toolbar_bottom_separator": "#121219",
+      "toolbar_field": "#121219",
+      "toolbar_field_separator": "#1EEAF0",
+      "toolbar_field_focus": "#1EEAF0",
+      "toolbar_field_highlight": "#1EEAF0",
+      "bookmark_text": "#1AF095",
+
+      // New tab page
+      "ntp_background": "#121219",
+      "ntp_text": "#E4F1EA",
+
+      // Sidebar
+      "sidebar": "#121219",
+      "sidebar_border": "#121219",
+      "sidebar_text": "#E4F1EA"
+    }
+  }
+}
