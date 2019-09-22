@@ -163,6 +163,10 @@ ytd-rich-metadata-renderer, ytd-post-renderer, ytd-mini-guide-renderer, ytd-mini
    fill: var(--accent-green) !important;
 }
 
+#header.ytd-movie-offer-module-renderer #title {
+   color: var(--primary-background) !important;
+}
+
 .date, yt-icon, .ytd-mini-channel-renderer, .ytd-guide-entry-renderer, .ytp-title-link {
    color: var(--secondary-white) !important;
 }
