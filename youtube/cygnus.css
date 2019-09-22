@@ -267,4 +267,5 @@ ytd-author-comment-badge-renderer {
 
    color: var(--ytd-author-comment-badge-name-color) !important;
    fill: var(--ytd-author-comment-badge-icon-color) !important;
+   padding: 0 5px;
 }
