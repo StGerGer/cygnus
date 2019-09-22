@@ -1,6 +1,7 @@
 /*
  * Human readable source for Cygnus Firefox theme
  * Note: Don't put this file through a JSON parser, it won't work. Use JSMin on this file first.
+ * jsmin <manifest.human.json >manifest.json
  *
  * Created by Nate St. George, licensed under the MIT License
 */
