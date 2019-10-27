@@ -63,7 +63,7 @@ a {
    color: var(--accent-green);
 }
 
-#video-title {
+#video-title, .html5-video-player a {
    color: var(--primary-white) !important;
 }
 
@@ -273,3 +273,4 @@ ytd-author-comment-badge-renderer {
    fill: var(--ytd-author-comment-badge-icon-color) !important;
    padding: 0 5px;
 }
+
